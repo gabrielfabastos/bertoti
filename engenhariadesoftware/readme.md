@@ -9,6 +9,9 @@ O texto também mostra que, diferente de outras engenharias, o desenvolvimento d
 
 Na minha visão, o principal ponto desse trecho é que engenharia de software vai além de “fazer o código funcionar”. Ela envolve responsabilidade, processos e uma preocupação maior com qualidade e confiabilidade.
 
+Comentários do professor:
+Falar sobre o software ser intangível. A nossa é a única engenharia que está desenvolvendo algo intangível.
+
 ---
 
 ## Atividade 2
@@ -27,9 +30,38 @@ Trade-offs e Custos: toda decisão técnica envolve escolhas e consequências.
 
 Para mim, esse trecho reforça que desenvolver software não é pensar só no presente, mas no ciclo de vida completo do sistema.
 
+Comentários do professor:
+Engenharia de software é programação. Envolve isso mas envolve programação + tempo + escala + tradeoffs
+Entender como meu código evolui ao longo do tempo. Atualizações. Escala é como o software cresce, para escalar é necessário dividir tudo em partes.
+
 ---
 
 ## Atividade 3
+3 - Requisitos não funcionais
+ 
+Listar 5 requisitos não funcionais e descrevê-los com suas palavras (ver slides 8, 9 e 10)
+
+- Escalabilidade
+- Segurança
+- Integridade
+- Usabilidade
+- Modularidade
+- Extensabilidade
+- Disponibilidade
+- Performance
+- 
+
+---
+
+## Atividade 4
+
+Exemplo:
+Portabilidade (java) X Simplicidade (python)
+
+Escalabilidade (microserviços) X Complexidade (monolito) - 2006 o número de requisições começou a crescer… ninguém tinha resposta na época…
+
+Usabilidade (windows) X Estabilidade (linux)
+
 
 Exemplos de Trade-offs
 1. Velocidade vs. Qualidade
