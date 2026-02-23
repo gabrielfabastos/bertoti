@@ -84,3 +84,23 @@ Uma solução rápida pode reduzir o esforço inicial, mas aumentar o custo de m
 Já investir mais tempo no começo pode tornar o sistema mais sustentável e fácil de evoluir.
 
 Esse trade-off está diretamente ligado à ideia de pensar o software ao longo do tempo.
+
+---
+
+## Atividade 5
+
+É possível testar tudo em software?
+Não, não é possível testar tudo em software pois o número de entradas é muito grande, e as vezes infinito.
+Os softwares tem muitos defeitos, mas o erro nem sempre aparece.
+
+
+Quantas entradas mostram o erro? Quais são?
+
+O erro aparece apenas nos valores de fronteira onde a divisão por 30000 muda de resultado.
+
+4 entradas mostram o erro:
+
+j = -30000
+j = -29999
+j = 29999
+j = 30000
