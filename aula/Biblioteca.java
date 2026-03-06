@@ -17,6 +17,15 @@ public class Biblioteca {
         return encontrados;
     }
 
+    public List<Livro> buscarLivroTituloAutor(Livro liv){
+        List<Livro> encontrados = new LinkedList<>();
+        for (Livro livro:livros){
+            //if(livro.getTitulo().equals(titulo) && livro.getAutor().equals(autor)) encontrados.add(livro);
+            if(livro.comparar(liv)) encontrados.add(livro);//baixo acoplamento
+        }
+        return encontrados;
+    }
+
     public List<Livro> getLivros(){
         return livros;
     }
